@@ -106,9 +106,9 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      REGISTRY: registry.aetherproject.org
-      DOCKER_REGISTRY: registry.aetherproject.org/
-      DOCKER_REPOSITORY: sdcore/
+      REGISTRY: docker.io
+      DOCKER_REGISTRY: docker.io/
+      DOCKER_REPOSITORY: ajeeshcazelabs/nssf/
     steps:
       - uses: actions/checkout@v4
 
