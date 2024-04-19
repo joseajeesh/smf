@@ -107,8 +107,8 @@ jobs:
     
     env:
       REGISTRY: docker.io
-      DOCKER_REGISTRY: docker.io/
-      DOCKER_REPOSITORY: ajeeshcazelabs
+      DOCKER_REGISTRY: ajeeshcazelabs
+      DOCKER_REPOSITORY: 5gc-smf/
     steps:
       - uses: actions/checkout@v4
 
