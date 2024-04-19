@@ -106,7 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      REGISTRY: docker.io
+      REGISTRY: docker.io/ajeeshcazelabs
      # DOCKER_REGISTRY: ajeeshcazelabs/
      # DOCKER_REPOSITORY: 5gc-smf/
     steps:
