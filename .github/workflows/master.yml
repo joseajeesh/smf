@@ -108,7 +108,7 @@ jobs:
     env:
       REGISTRY: docker.io
       DOCKER_REGISTRY: docker.io/
-      DOCKER_REPOSITORY: ajeeshcazelabs/nssf/
+      DOCKER_REPOSITORY: ajeeshcazelabs
     steps:
       - uses: actions/checkout@v4
 
