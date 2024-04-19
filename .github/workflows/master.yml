@@ -108,8 +108,7 @@ jobs:
     env:
       REGISTRY: docker.io
       DOCKER_REGISTRY: bond00701011990722/
-      DOCKER_REPOSITORY: 5gc-smf/
-      
+            
     steps:
       - uses: actions/checkout@v4
 
